@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  background-color: #FAFAFA;
+}
+
+header{
+  width: 20%;
+  min-height: 100vh;
+}
+nav{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 18px;
+  padding-left: 30px;
+  background-color:#FFFFFF ;
+  color: #262626;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+}
+.logoinsta{
+  width:103px ;
+  height:29px ; 
+  margin-top: 17px;
+}
+nav a{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main{
+  font-family:'Segoe UI';
+  width: 80%;
+  height: 45%;
+  padding-right: 3%;
+}
+.profile{
+  display: flex;
+  padding: 101px, 0px, 71px;
+  margin-top: 60px;
+  margin-left: 60px;
+  gap: 80px;
+}
+.usernamesection{
+  display: flex;
+  align-items: center;
+  margin-top: 23px;
+}
+.usernamesection img{
+  width: 21px;
+}
+.usernamesection span{
+  font-size: 28px;
+  margin-right: 30px;
+}
+.usernamesection button{
+  width:90px;
+  height:30px;
+  margin-right: 20px;
+  border-radius: 4px;
+  padding: 6px, 24px, 6px, 24px;
+  background-color: #0095F6;
+  border: 0;
+  color: #FFFFFF;
+}
+.buttonsection{
+  display: flex;
+  gap: 40px;
+}
+.buttonsection button{
+  border: 0;
+  font-size: 16px;
+  background-color: transparent;
+  padding: 20px 0 20px 0;
+}
+.name{
+  font-weight: 600;
+}
+.storysection{
+  display: flex;
+  gap: 52px;
+  margin-left: 70px;
+  margin-top: 75px;
+  
+}
+.storysection div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+.postsection{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.barrasection{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 65px;
+  margin-bottom: 2px;
+  font-size: 12px;
+  border-top: 2px solid #DBDBDB;
+  padding: 15px;
+  position: relative;
+}
+.barrasection::before {
+  content: " ";
+    position: absolute;
+    width: 55px;
+    top: -2px;
+    left: 227px;
+    right: 0px;
+    border: 0.2px solid #262626;
+}
+.footersection{
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  width: 68%;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #8E8E8E;
+}
+footer{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
